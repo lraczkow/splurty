@@ -4,20 +4,23 @@
   clear: both;
 }
 
+@-ms-viewport{
+  width: device-width;
+}
 
 .circle {
     font-weight:bold;
     font-style: italic;
     position: relative;
     border-radius: 100%;
-    background: #f84342;
+    background: #553D67;
     border: 1px solid #F7F7F7;
     width: 80px;
     height: 80px;
     margin: 10px 10px;
     text-align: center;
     color: #FFF;
-    font-size: 10px;
+    font-size: 15px;
     line-height: 16px;
     cursor: pointer;
     transform:rotate(11deg);
@@ -26,7 +29,7 @@
 }
 
 .slogan {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-style: italic;
   padding-top: 26px;
 }
@@ -36,10 +39,10 @@
 }
 
 .links a {
-  color: black;
+  color: #242582;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
-  font-family: 'quicksandregular', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
 }
 
@@ -47,28 +50,34 @@ header {
   border-top: 9px solid #222222;
 }
 
+body {
+  background: image_url('greek-vase.png');
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
 hr {
   clear:both;
 }
 
 h1 {
-  font-family: "quicksandregular", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: bold;
   font-size: 48px;
  }
 
 h2 {
-  font-family: "quicksanditalic", sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
 }
 
 .next-quote {
-  color: #f84342;
-  font-family: 'quicksanditalic', sans-serif;
+  color: #553D67;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
 }
 
 .footer-blurb {
-    font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+    font-family: 'Open Sans', sans-serif;
     font-style: italic;
     text-align: right;
     font-size: 10px;
@@ -79,7 +88,7 @@ h2 {
 }
 
 .about {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 @media (max-width: 750px) {
@@ -89,15 +98,15 @@ h2 {
 }
 
 .modal {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 h2 span {
-  color: #dddddd;
-  font-family: "quicksandregular", sans-serif;
+  color: #F64C72;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: bold;
 }
 
 ::selection {
-  background-color: #f84342;
+  background-color: #99738E;
 }

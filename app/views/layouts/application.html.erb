@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
     <title>Splurty</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
   </head>
 
   <body>
@@ -16,16 +17,16 @@
         <%= link_to root_path, class: 'logo' do %>
           <div class="circle">
             <br />
-            Giving back
+            Give me
             <br />
-            while still
+            all the
             <br />
-            shopping
+            advice
           </div>
         <% end %>
       </div>
       <div class="col col-sm-4 hidden-xs-down slogan">
-        Splurting out unsolicited advice about entrepreneurship since 2016
+        Splurting out unsolicited advice about achieving your goals since 2016
       </div>
       <div class="col-10 offset-1 offset-sm-0 col-sm-5 links">
         <!-- Button trigger modal -->
@@ -90,4 +91,5 @@
     </div>
 
   </body>
+  
 </html>
